@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#fff4fa">
+
+    <meta name="description" content="Một lời chúc nhỏ, gửi đến bạn nhân ngày Phụ nữ Việt Nam 20/10.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <title>Một món quà nhỏ dành cho bạn ♡</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <main class="page" id="page">
+
+        <!-- Decorative background -->
+        <div class="decoration decoration-one" aria-hidden="true">♡</div>
+        <div class="decoration decoration-two" aria-hidden="true">✿</div>
+        <div class="decoration decoration-three" aria-hidden="true">✧</div>
+        <div class="decoration decoration-four" aria-hidden="true">♡</div>
+
+        <!-- Intro -->
+        <header class="header">
+            <p class="badge">
+                <span aria-hidden="true">🌷</span>
+                A LITTLE GIFT FOR YOU
+                <span aria-hidden="true">🌷</span>
+            </p>
+
+            <h1>
+                Một món quà nhỏ,<br>
+                <span>gửi bằng cả tấm lòng.</span>
+            </h1>
+
+            <p class="subtitle" id="subtitle">
+                Có một lời chúc đang chờ bạn mở ra.
+                <br>
+                Chạm nhẹ vào phong thư nhé! 💌
+            </p>
+        </header>
+
+        <!-- Envelope -->
+        <section class="envelope-section" aria-label="Phong thư lời chúc">
+            <button class="envelope-button" id="open-envelope" type="button" aria-label="Mở phong thư"
+                aria-expanded="false" aria-controls="greeting">
+                <span class="envelope-wrapper" aria-hidden="true">
+
+                    <!-- Letter inside the envelope -->
+                    <span class="letter-preview">
+                        <span class="preview-flower">🌸</span>
+                        <span class="preview-text">A little wish for you</span>
+                        <span class="preview-heart">♡</span>
+                    </span>
+
+                    <!-- Envelope body -->
+                    <span class="envelope">
+                        <span class="envelope-back"></span>
+                        <span class="envelope-front-left"></span>
+                        <span class="envelope-front-right"></span>
+                        <span class="envelope-front-bottom"></span>
+
+                        <!-- Opening flap -->
+                        <span class="envelope-flap"></span>
+
+                        <!-- Wax seal -->
+                        <span class="wax-seal">♡</span>
+                    </span>
+                </span>
+
+                <span class="sparkle sparkle-one" aria-hidden="true">✦</span>
+                <span class="sparkle sparkle-two" aria-hidden="true">✧</span>
+                <span class="sparkle sparkle-three" aria-hidden="true">♡</span>
+            </button>
+        </section>
+
+        <p class="tap-hint" id="tap-hint">
+            <span class="hint-dot"></span>
+            CHẠM ĐỂ MỞ THƯ
+            <span class="hint-dot"></span>
+        </p>
+
+        <!-- Greeting card -->
+        <section class="greeting" id="greeting" aria-hidden="true" aria-labelledby="greeting-title" inert>
+            <article class="greeting-card">
+
+                <span class="card-sticker sticker-left" aria-hidden="true">
+                    🌼
+                </span>
+
+                <span class="card-sticker sticker-right" aria-hidden="true">
+                    💗
+                </span>
+
+                <div class="card-flower" aria-hidden="true">
+                    🌷 🌸 🌷
+                </div>
+
+                <p class="card-label">
+                    A LITTLE NOTE FOR YOU
+                </p>
+
+                <h2 id="greeting-title">
+                    Gửi một người<br>
+                    phụ nữ tuyệt vời!
+                </h2>
+
+                <p class="greeting-date">
+                    ✨ Ngày Phụ nữ Việt Nam · 20/10 ✨
+                </p>
+
+                <div class="divider">
+                    <span>♡</span>
+                </div>
+
+                <div class="wish-text" id="wish-text">
+                    <p>
+                        Chúc bạn luôn được yêu thương, trân trọng
+                        và hạnh phúc theo cách riêng của mình.
+                    </p>
+
+                    <p>
+                        Mong rằng những ngày phía trước sẽ có thật
+                        nhiều niềm vui, những điều dịu dàng, những
+                        ước mơ thành hiện thực và những người chân
+                        thành luôn ở bên.
+                    </p>
+
+                    <p>
+                        Dù cuộc sống đôi lúc bận rộn hay không như ý,
+                        mong bạn vẫn luôn nhớ rằng mình xứng đáng
+                        với những điều tốt đẹp - không chỉ hôm nay
+                        mà trong tất cả những ngày bình thường khác nữa.
+                    </p>
+                </div>
+
+                <div class="closing">
+                    <span class="closing-heart" aria-hidden="true">💖</span>
+
+                    <p>
+                        Chúc bạn một ngày 20/10 thật ấm áp
+                        và một cuộc đời thật nhiều yêu thương!
+                    </p>
+
+                    <span class="closing-flower" aria-hidden="true">
+                        Made with ♡
+                    </span>
+                </div>
+
+                <div class="card-actions">
+                    <button class="action-button primary-button" id="copy-wish" type="button">
+                        <span aria-hidden="true">♡</span>
+                        Sao chép lời chúc
+                    </button>
+
+                    <button class="action-button secondary-button" id="replay" type="button">
+                        ↺ Mở lại từ đầu
+                    </button>
+                </div>
+
+                <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
+            </article>
+        </section>
+
+        <footer class="footer">
+            <span aria-hidden="true">♡</span>
+            ĐƯỢC GỬI ĐI BẰNG SỰ CHÂN THÀNH
+            <span aria-hidden="true">♡</span>
+        </footer>
+
+        <!-- Animated floating hearts -->
+        <div class="particle-container" id="particle-container" aria-hidden="true"></div>
+
+    </main>
+</body>
+
+</html>
